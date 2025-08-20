@@ -1,0 +1,20 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9fbe7;
+    text-align: center;
+    padding-top: 5rem;
+}
+.animated-btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+.animated-btn:hover {
+    background: #f57c00;
+    transform: scale(1.1);
+}

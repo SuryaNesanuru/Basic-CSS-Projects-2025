@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3e5f5;
+    text-align: center;
+}
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.plan {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    min-width: 150px;
+}

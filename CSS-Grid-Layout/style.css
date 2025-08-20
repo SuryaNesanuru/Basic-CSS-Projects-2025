@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+.grid-item {
+    background: #4caf50;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
