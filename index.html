@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Interactive Expanding Cards Gallery with keyboard accessibility and theming." />
+  <title>Expanding Cards Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">Expanding Cards Gallery</h1>
+    <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark theme">
+      <span class="theme-toggle__icon" aria-hidden="true">🌓</span>
+      <span class="theme-toggle__text">Toggle theme</span>
+    </button>
+  </header>
+
+  <main id="main" class="site-main">
+    <section class="cards" aria-label="Expanding cards gallery">
+      <div class="card" role="button" tabindex="0" aria-pressed="false" data-img="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop" aria-label="Mountain View">
+        <h3 class="card__title">Mountain View</h3>
+        <footer class="card__footer">
+          <a class="card__link" href="#" aria-label="View more about Mountain View">View more</a>
+        </footer>
+      </div>
+      <div class="card" role="button" tabindex="0" aria-pressed="false" data-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop" aria-label="Ocean Breeze">
+        <h3 class="card__title">Ocean Breeze</h3>
+        <footer class="card__footer">
+          <a class="card__link" href="#" aria-label="View more about Ocean Breeze">View more</a>
+        </footer>
+      </div>
+      <div class="card" role="button" tabindex="0" aria-pressed="false" data-img="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1600&auto=format&fit=crop" aria-label="City Lights">
+        <h3 class="card__title">City Lights</h3>
+        <footer class="card__footer">
+          <a class="card__link" href="#" aria-label="View more about City Lights">View more</a>
+        </footer>
+      </div>
+      <div class="card" role="button" tabindex="0" aria-pressed="false" data-img="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" aria-label="Forest Trail">
+        <h3 class="card__title">Forest Trail</h3>
+        <footer class="card__footer">
+          <a class="card__link" href="#" aria-label="View more about Forest Trail">View more</a>
+        </footer>
+      </div>
+      <div class="card" role="button" tabindex="0" aria-pressed="false" data-img="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600&auto=format&fit=crop" aria-label="Desert Dunes">
+        <h3 class="card__title">Desert Dunes</h3>
+        <footer class="card__footer">
+          <a class="card__link" href="#" aria-label="View more about Desert Dunes">View more</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
